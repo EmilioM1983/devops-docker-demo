@@ -2,7 +2,7 @@ const http = require("http");
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Nueva versión 1.0 desplegada automáticamente!");
+  res.end("Nueva versión 2.0 desplegada automáticamente!");
 });
 
 const PORT = process.env.PORT || 3000;
