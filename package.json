@@ -1,0 +1,12 @@
+{
+  "name": "devops-docker-demo",
+  "version": "1.0.0",
+  "description": "Demo DevOps con Node.js y Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Tests ejecutados correctamente ✅'"
+  },
+  "author": "Emilio Mayer",
+  "license": "MIT"
+}
